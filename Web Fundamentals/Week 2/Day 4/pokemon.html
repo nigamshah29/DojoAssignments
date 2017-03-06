@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Poké.css" />
+        <title>Gotta Catch'em All</title>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                for(var i = 1; i < 152; i++){
+                        $(".pokemon").append("<img src ='http://pokeapi.co/media/img/" + i + ".png'/>");
+                    }
+
+                //    for(var i = 1; i < 152; i++){
+                //         $.get('http://pokeapi.co/api/v1/pokemon/' + i + '/', function(res) {
+                //         $(".pokedex").append('http://pokeapi.co/api/v1/pokemon/' + i + '/')
+                //         $("pokedex").html(name);
+                //     // }) "json";
+                // })
+                //
+                // var name = "";
+                // var img = "img id="img" src ='http://pokeapi.co/media/img/" + i + ".png'/";
+                // var types = "<ul>";
+
+                $("img").click(function(){
+                    $(".pokedex").load(res.name)
+                    console.log("hello");
+
+
+               });
+                //
+                // $.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
+                //     var html_str = "";
+                //     html_str += "<h4>Types</h4>";
+                //     html_str += "<ul>";
+                //     for(var i = 0; i < res.types.length; i++) {
+                //         html_str += "<li>" + res.types[i].name + "</li>";
+                //     }
+                    html_str += "</ul>";
+                    $("#bulbasaur").html(html_str);
+                // }, "json");
+            });
+        </script>
+    </head>
+    <body>
+        <div class="pokemon">
+        </div>
+
+        <div class="pokedex">
+            <h2>Types</h2>
+        </div>
+
+
+   </body>
+</html>

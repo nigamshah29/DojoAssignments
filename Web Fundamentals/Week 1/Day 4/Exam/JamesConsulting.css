@@ -1,0 +1,139 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+    background-color: midnightblue;
+    padding: 10px;
+}
+#header h2{
+    display: inline-block;
+    font-family: "Arial Narrow";
+}
+#home a{
+    color: cornflowerblue;
+}
+#header ul{
+    display: inline;
+    color: white;
+    margin: 0 0 0 120px;
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+}
+#header{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-family: sans-serif;
+}
+#consulting{
+    color:deepskyblue;
+}
+#layout{
+    background-color:white;
+    padding: 15px;
+}
+#services{
+    height: auto;
+    width: 780px;
+    margin: auto;
+}
+.main-tile{
+    background-color: #3e6cb7;
+    height: auto;
+    width: 230px;
+    color: white;
+    display: inline-block;
+    padding: 4px 9.2px 4px 4px;
+    margin: 10px 6px;
+}
+#middle-tile{
+    margin-bottom: 12px;
+}
+.main-tile img{
+    height: auto;
+    width: 30px;
+    display: inline;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    vertical-align: middle;
+}
+.main-tile h3{
+    font-family: "Arial Narrow";
+    display: inline;
+    margin: 0px 0px 10px 5px;
+    vertical-align: middle;
+}
+.main-tile p{
+    font-size: 8pt;
+    margin: 8px 14px 25px 10px;
+}
+.main-tile input{
+    background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); 
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 10pt;
+    font-family: sans-serif;
+    border: none;
+}
+.bottom-tile{
+    height: auto;
+    width: 240px;
+    display: inline-block;
+    margin: 0px 6px;
+    vertical-align: center;
+}
+.bottom-tile img{
+    height: auto;
+    width: 240px;
+    margin: 0px;
+}
+.bottom-tile h2{
+    font-family: "Arial Narrow";
+    font-size: 15pt;
+    margin: 10px 0 14px 0;
+}
+.bottom-tile p{
+    font-family: sans-serif;
+    color: black;
+    font-size: 7.5pt;
+    margin: 9px 0px;
+}
+.bottom-tile input{
+    color: cornflowerblue;
+    margin-top: 5px;
+    border: none;
+    background-color: white;    
+    font-size: 10pt;
+}
+#testimonial{
+    background-color:lightcyan;
+    padding: 20px 20px 30px 20px;
+    font-size: 10pt;
+    font-family: Arial;
+    font-style: italic;
+}
+#footer{
+    text-align: center;
+    background-color: lightcyan;
+    border-top: 1px solid midnightblue;
+    padding: 10px 0 20px 0;
+}
+#footer a{
+    color: midnightblue;
+    font-size: 9pt;
+}
+#footer #footer-home{
+    color: cornflowerblue;
+}

@@ -1,0 +1,22 @@
+#pokedex {
+  display: block;
+  height:500px;
+  width: 200px;
+  position:absolute;
+  border: 20px solid red;
+  margin-left: 800px;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 20px;
+  word-wrap: break-word;
+  padding-left:50px;
+}
+
+.pokemon{
+  width: 840px;
+  position: absolute;
+}
+
+#pokedex li {
+  display: block;
+}

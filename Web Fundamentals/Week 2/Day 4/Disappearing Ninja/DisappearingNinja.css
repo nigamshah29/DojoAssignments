@@ -1,0 +1,17 @@
+#container{
+  background-color: red;
+}
+.ninja {
+  display: inline-block;
+}
+.ninja img{
+  width: 300px;
+  border: 2px solid black;
+}
+button{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 30pt;
+  margin: 0 100px;
+}

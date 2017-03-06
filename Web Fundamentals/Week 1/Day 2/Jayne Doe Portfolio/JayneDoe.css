@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(43.7%, 30%, 30%);
+    padding: 0px 0;
+    margin: 0;
+}
+#header{
+    background-color: lightgray;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+#header h2{
+    font-family: Comic Sans MS;
+    display: inline;
+    margin-left: 10px;
+}
+#header h3{
+    text-align: right;
+    display: inline;
+    margin-left: 460px;
+}
+#picture{
+    border: 4px solid lightgray;
+    display: inline-block;
+    margin: 10px;
+    height: 240px;
+    width: 360px;
+}
+#picture img{
+    height: 240px;
+    width: 360px;
+}
+#about-me{
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+    vertical-align: top;
+    height: 240px;
+    width: 490px;
+}
+#about-me h3{
+    background: linear-gradient(to bottom, #cedce7 1%,#596a72 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    padding: 4px;
+    margin: auto;
+}
+.past_work{
+    background-color: lightgray;
+    display: inline-block;
+    margin: 10px;
+    width: 280px;
+    height: 480px;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+.past_work img{
+    height: auto;
+    width: 280px;
+}
+.past_work p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    margin: 10px;
+}
+#tile1{
+    padding-bottom: 40px;
+}
+#tile2{
+    padding-bottom: 30px;
+}
+#tile3{
+    padding-bottom: 3px;
+}
+.past_work h3{
+    background: linear-gradient(to bottom, #cedce7 1%,#596a72 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 8px;
+    margin: 0;
+}
+.past_work h4{
+    background: linear-gradient(to bottom, #cedce7 1%,#596a72 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 4px;
+}
+.editorial{
+    font-size: 11pt;
+}
+.technologies{
+    background-color: lightgray;
+}
+.past_work .technologies img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px 5px 14px;
+}
+.CTA{
+    background-color:darkgreen;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 12px 0px 0px 125px;
+    vertical-align: bottom;
+}
+#footer{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding-bottom: 20px;
+}
+.contact{
+    text-align: center;
+    display: inline;
+}
+.icon img{
+    height: 15px;
+    width: 15px;
+    display: inline;
+}
+.icon p{
+    text-decoration: underline;
+    font-style: italic;
+    display: inline;
+}
